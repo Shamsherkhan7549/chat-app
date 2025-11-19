@@ -77,5 +77,3 @@ Adjust backend handlers to match these event names/payloads.
 - Easy to extend: add message timestamps, user names, or persist to a backend store.
 
 ## License
-
-MIT — modify as needed.

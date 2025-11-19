@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Chat App Logo SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 140 140" role="img" aria-labelledby="title desc">
+  <title id="title">Chat App Logo</title>
+  <desc id="desc">Two overlapping speech bubbles inside a rounded square with gradient — modern chat application mark.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5EE7DF" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0b1220" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- rounded square background with gradient -->
+  <rect x="6" y="6" width="128" height="128" rx="28" fill="url(#g1)" filter="url(#shadow)" />
+
+  <!-- larger speech bubble (back) -->
+  <g transform="translate(24,30)">
+    <path d="M6 40c0-11.046 8.954-20 20-20h36c11.046 0 20 8.954 20 20v6c0 11.046-8.954 20-20 20H40l-12 12v-12H26c-11.046 0-20-8.954-20-20v-6z"
+          fill="#ffffff" opacity="0.92" />
+  </g>
+
+  <!-- front speech bubble with brand color and inner dots -->
+  <g transform="translate(18,18)">
+    <path d="M86 36c0-9.94-8.06-18-18-18H36C26.06 18 18 26.06 18 36v14c0 9.94 8.06 18 18 18h10l10 10v-10h12c9.94 0 18-8.06 18-18V36z"
+          fill="#0F172A" opacity="0.06" />
+    <path d="M80 28c0-7.732-6.268-14-14-14H34C26.268 14 20 20.268 20 28v10c0 7.732 6.268 14 14 14h8l8 8v-8h10c7.732 0 14-6.268 14-14V28z"
+          fill="#fff" />
+    <!-- three dots -->
+    <circle cx="44" cy="36" r="3.8" fill="#7C3AED" />
+    <circle cx="56" cy="36" r="3.8" fill="#5EE7DF" />
+    <circle cx="68" cy="36" r="3.8" fill="#0EA5E9" />
+  </g>
+
+  <!-- subtle highlight ring -->
+  <path d="M14 10c6-6 14-8 22-8h68c8 0 16 2 22 8v88c-6 6-14 8-22 8H36c-8 0-16-2-22-8V10z" fill="none" stroke="#ffffff" opacity="0.06" stroke-width="2" />
+</svg>
